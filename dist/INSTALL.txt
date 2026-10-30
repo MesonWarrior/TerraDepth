@@ -1,0 +1,33 @@
+TerraDepth 3D (TerraDepth.tmod) - installing on another computer
+
+Requirements
+  - Terraria and tModLoader on Steam (tModLoader is free for Terraria owners).
+  - tModLoader 2026.8 or newer: the mod is built for 2026.8.3.
+    Start tModLoader from Steam once to let Steam update it.
+
+Installation
+  1. Start tModLoader once and close it, so that its folders are created.
+  2. Copy TerraDepth.tmod into the Mods folder:
+       Windows: Documents\My Games\Terraria\tModLoader\Mods
+                (usually C:\Users\<name>\Documents\My Games\Terraria\tModLoader\Mods)
+       macOS:   ~/Library/Application Support/Terraria/tModLoader/Mods
+                (in Finder: Go > Go to Folder... and paste the path)
+       Linux:   ~/.local/share/Terraria/tModLoader/Mods
+  3. Start tModLoader > Workshop > Manage Mods.
+  4. Enable "TerraDepth 3D" and press Reload Mods.
+
+Worlds and characters (optional)
+  To move a world, copy both of its files from the Worlds folder next to Mods:
+  <name>.wld and <name>.twld. The 3D data of the world is stored in the .twld file.
+  Characters are in the Players folder: <name>.plr and <name>.tplr.
+
+Controls
+  WASD - move, mouse - look, X - drop through platforms,
+  F5 - first / third person camera, F6 - toggle 3D,
+  Left Alt (hold) - free the cursor.
+  The mod keys can be rebound in Settings > Controls.
+  World depth and render distance are in the mod settings (Mod Configuration).
+
+If the mod does not show up in the list
+  - Check the tModLoader version (2026.8 or newer is required).
+  - Check that the file is named exactly TerraDepth.tmod and lies directly in the Mods folder.

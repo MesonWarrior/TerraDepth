@@ -1,0 +1,6 @@
+TerraDepth 3D turns Terraria into a voxel 3D game.
+
+The world gets a third axis (depth Z) equal to 10% of its length. A 3D generator builds the terrain, caves, biomes and volumetric structures; the vanilla world becomes the central slice, and only your changes are saved, so the world file stays small.
+
+Controls: mouse look, WASD move in 3D, Space jump, X drop through platforms, LMB use/mine, RMB interact, Esc inventory (frees the cursor), hold Left Alt to free the cursor, F5 camera, F6 toggle 3D.
+Singleplayer only.

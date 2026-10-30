@@ -1,0 +1,10 @@
+# build output
+bin/
+obj/
+dist/*.tmod
+
+# IDE and OS files
+.vs/
+.idea/
+*.user
+.DS_Store

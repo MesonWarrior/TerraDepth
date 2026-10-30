@@ -1,0 +1,9 @@
+displayName = TerraDepth 3D
+author = anonymous1qwe
+version = 0.8.1
+homepage =
+hideCode = false
+hideResources = false
+includeSource = true
+side = Both
+buildIgnore = *.md, .git/*, bin/*, obj/*, tools/*, GrassTextures/*, dist/*

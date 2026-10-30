@@ -1,0 +1,61 @@
+Keybinds: {
+	ToggleCamera.DisplayName: Камера от 1-го / 3-го лица
+	Toggle3D.DisplayName: Включить / выключить 3D
+	FreeCursor.DisplayName: Удерживать, чтобы освободить курсор
+	DropDown.DisplayName: Спуститься сквозь платформу / вниз (S в 3D — шаг назад)
+}
+
+Configs: {
+	DepthClientConfig: {
+		DisplayName: TerraDepth 3D - Клиент
+
+		Enabled3D: {
+			Label: Включить 3D
+			Tooltip: Отрисовка и игра в трёх измерениях
+		}
+
+		FieldOfView: {
+			Label: Угол обзора
+			Tooltip: Вертикальный угол обзора в градусах
+		}
+
+		RenderDistance: {
+			Label: Дальность прорисовки (тайлы)
+			Tooltip: Насколько далеко рисуются чанки
+		}
+
+		MouseSensitivity: {
+			Label: Чувствительность мыши
+			Tooltip: ""
+		}
+
+		InvertMouseY: {
+			Label: Инвертировать мышь по Y
+			Tooltip: ""
+		}
+
+		StartInThirdPerson: {
+			Label: Начинать с вида от третьего лица
+			Tooltip: ""
+		}
+
+		ThirdPersonDistance: {
+			Label: Дистанция камеры от третьего лица
+			Tooltip: В тайлах
+		}
+
+		ChunkBuildBudgetMs: {
+			Label: Бюджет построения чанков (мс на кадр)
+			Tooltip: Больше — мир прогружается быстрее, но возможны подтормаживания
+		}
+	}
+
+	DepthServerConfig: {
+		DisplayName: TerraDepth 3D - Мир
+
+		DepthPercent: {
+			Label: Глубина мира (% от длины)
+			Tooltip: Размер оси Z; применяется, когда мир впервые получает 3D-данные
+		}
+	}
+}

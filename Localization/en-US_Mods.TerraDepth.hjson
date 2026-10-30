@@ -1,0 +1,61 @@
+Keybinds: {
+	ToggleCamera.DisplayName: Toggle first/third person
+	Toggle3D.DisplayName: Toggle 3D mode
+	FreeCursor.DisplayName: Hold to free the cursor
+	DropDown.DisplayName: Drop through platforms / climb down (S moves back in 3D)
+}
+
+Configs: {
+	DepthClientConfig: {
+		DisplayName: TerraDepth 3D - Client
+
+		Enabled3D: {
+			Label: Enable 3D
+			Tooltip: Render the world in 3D and play in three dimensions
+		}
+
+		FieldOfView: {
+			Label: Field of view
+			Tooltip: Vertical field of view in degrees
+		}
+
+		RenderDistance: {
+			Label: Render distance (tiles)
+			Tooltip: How far chunks are drawn
+		}
+
+		MouseSensitivity: {
+			Label: Mouse sensitivity
+			Tooltip: ""
+		}
+
+		InvertMouseY: {
+			Label: Invert mouse Y
+			Tooltip: ""
+		}
+
+		StartInThirdPerson: {
+			Label: Start in third person
+			Tooltip: ""
+		}
+
+		ThirdPersonDistance: {
+			Label: Third person camera distance
+			Tooltip: In tiles
+		}
+
+		ChunkBuildBudgetMs: {
+			Label: Chunk build budget (ms per frame)
+			Tooltip: Higher loads the world faster but can cause stutter
+		}
+	}
+
+	DepthServerConfig: {
+		DisplayName: TerraDepth 3D - World
+
+		DepthPercent: {
+			Label: World depth (% of length)
+			Tooltip: Depth of the Z axis, applied when a world gets 3D data for the first time
+		}
+	}
+}

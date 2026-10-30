@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="$(HOME)/Library/Application Support/Steam/steamapps/common/tModLoader/tMLMod.targets" />
+  <PropertyGroup>
+    <AssemblyName>TerraDepth</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <!-- packaging is done by build.sh so the mod gets its ModSources name -->
+    <BuildMod>false</BuildMod>
+  </PropertyGroup>
+</Project>
